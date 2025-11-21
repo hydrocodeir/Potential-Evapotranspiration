@@ -1,0 +1,44 @@
+[project]
+name = "potential-evapotranspiration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "climate-indices>=2.2.0",
+    "earthengine-api>=1.7.1",
+    "fastparquet>=2024.11.0",
+    "geemap>=0.36.6",
+    "geopandas>=1.1.1",
+    "ipython>=9.7.0",
+    "jupyterlab>=4.5.0",
+    "lightgbm>=4.6.0",
+    "linearmodels>=7.0",
+    "lxml>=6.0.2",
+    "matplotlib>=3.10.7",
+    "missingno>=0.5.2",
+    "nbformat>=5.10.4",
+    "netcdf4>=1.7.3",
+    "notebook>=7.5.0",
+    "numpy>=2.3.5",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "pyarrow>=22.0.0",
+    "pycrs>=1.0.2",
+    "pyet>=1.4.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "rioxarray>=0.20.0",
+    "scikit-learn>=1.7.2",
+    "scikit-optimize>=0.10.2",
+    "scipy>=1.16.3",
+    "shapely>=2.1.2",
+    "spei>=0.8.0",
+    "tensorflow>=2.20.0",
+    "tqdm>=4.67.1",
+    "tslearn>=0.7.0",
+    "xarray>=2025.11.0",
+    "xee>=0.0.23",
+    "xgboost>=3.1.2",
+]
