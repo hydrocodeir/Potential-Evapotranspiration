@@ -34,6 +34,7 @@ dependencies = [
     "scikit-optimize>=0.10.2",
     "scipy>=1.16.3",
     "shapely>=2.1.2",
+    "skillmetrics>=1.2.4",
     "spei>=0.8.0",
     "tensorflow>=2.20.0",
     "tqdm>=4.67.1",

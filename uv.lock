@@ -2820,6 +2820,7 @@ dependencies = [
     { name = "scikit-optimize" },
     { name = "scipy" },
     { name = "shapely" },
+    { name = "skillmetrics" },
     { name = "spei" },
     { name = "tensorflow" },
     { name = "tqdm" },
@@ -2860,6 +2861,7 @@ requires-dist = [
     { name = "scikit-optimize", specifier = ">=0.10.2" },
     { name = "scipy", specifier = ">=1.16.3" },
     { name = "shapely", specifier = ">=2.1.2" },
+    { name = "skillmetrics", specifier = ">=1.2.4" },
     { name = "spei", specifier = ">=0.8.0" },
     { name = "tensorflow", specifier = ">=2.20.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
@@ -3812,6 +3814,21 @@ wheels = [
 ]
 
 [[package]]
+name = "skillmetrics"
+version = "1.2.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "xlsxwriter" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/29/e1/ef218c3f5d9e32dd8a9861ff40c76b011a4d0c74aa8467c049c46987e4aa/SkillMetrics-1.2.4.tar.gz", hash = "sha256:a306427457b777424baa7eb85b9ed2f3f00a3d51424afc1c3e7534d27d56f244", size = 59014, upload-time = "2023-08-26T20:20:30.451Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d8/87/bfbbd3789a7adb302895386ddfcda5ab19af84940176cef425dffb45bd28/SkillMetrics-1.2.4-py3-none-any.whl", hash = "sha256:271d10753e55de8040d3c364e794b218af49ee34c734c625ae4c63a114f50f9a", size = 84980, upload-time = "2023-08-26T20:20:28.994Z" },
+]
+
+[[package]]
 name = "sniffio"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -4328,6 +4345,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/70/2f/5418f4b1deaf0886caf81c5e056299228ac2fc09b965a2dfe5e4496331c8/xgboost-3.1.2-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:f9b83f39340e5852bbf3e918318e7feb7a2a700ac7e8603f9bc3a06787f0d86b", size = 4953319, upload-time = "2025-11-20T18:28:29.851Z" },
     { url = "https://files.pythonhosted.org/packages/5e/ab/c60fcc137fa685533bb31e721de3ecc88959d393830d59d0204c5cbd2c85/xgboost-3.1.2-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:24879ac75c0ee21acae0101f791bc43303f072a86d70fdfc89dae10a0008767f", size = 115885060, upload-time = "2025-11-20T18:32:00.773Z" },
     { url = "https://files.pythonhosted.org/packages/30/7d/41847e45ff075f3636c95d1000e0b75189aed4f1ae18c36812575bb42b4b/xgboost-3.1.2-py3-none-win_amd64.whl", hash = "sha256:e627c50003269b4562aa611ed348dff8cb770e11a9f784b3888a43139a0f5073", size = 71979118, upload-time = "2025-11-20T18:27:55.23Z" },
+]
+
+[[package]]
+name = "xlsxwriter"
+version = "3.2.9"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/46/2c/c06ef49dc36e7954e55b802a8b231770d286a9758b3d936bd1e04ce5ba88/xlsxwriter-3.2.9.tar.gz", hash = "sha256:254b1c37a368c444eac6e2f867405cc9e461b0ed97a3233b2ac1e574efb4140c", size = 215940, upload-time = "2025-09-16T00:16:21.63Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3a/0c/3662f4a66880196a590b202f0db82d919dd2f89e99a27fadef91c4a33d41/xlsxwriter-3.2.9-py3-none-any.whl", hash = "sha256:9a5db42bc5dff014806c58a20b9eae7322a134abb6fce3c92c181bfb275ec5b3", size = 175315, upload-time = "2025-09-16T00:16:20.108Z" },
 ]
 
 [[package]]
